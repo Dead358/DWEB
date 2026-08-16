@@ -1,0 +1,79 @@
+    DIFERENÇA ENTRE APLICATIVO NATIVO SITE  E PROGRESSIVE WEB APP (PWA).
+
+FATEC SOROCABA (JOSÉ CRESPO GONZALES)
+
+
+
+Gustavo FERREIRA (FATEC)
+
+
+INTRODUÇÃO
+
+Com a expansão do uso da internet e dos dispositivos móveis, diferentes formas de disponibilizar softwares e serviços digitais foram desenvolvidas para atender às necessidades dos usuários. Entre essas alternativas, destacam-se os aplicativos nativos, os sites e as Progressive Web Apps (PWA), que apresentam diferentes características em relação ao desenvolvimento, acesso, desempenho, instalação e integração com os dispositivos.
+
+Os aplicativos nativos são desenvolvidos especificamente para determinados sistemas operacionais, enquanto os sites são acessados por meio de navegadores e não exigem, necessariamente, uma instalação no dispositivo. As Progressive Web Apps, por sua vez, utilizam tecnologias da Web e incorporam características que podem proporcionar uma experiência semelhante à de um aplicativo instalado, buscando combinar a acessibilidade da Web com recursos presentes em aplicações móveis.
+
+Dessa forma, compreender as características de cada uma dessas alternativas é importante para identificar suas vantagens, limitações e finalidades. Este trabalho apresenta os principais aspectos dos aplicativos nativos, sites e Progressive Web Apps, além de abordar as situações em que cada alternativa pode ser mais adequada, considerando fatores como desempenho, acessibilidade, conectividade, instalação e utilização dos recursos do dispositivo.
+
+
+O que é um “aplicativo nativo”, um “site” e um “progressive web app”?
+
+	O aplicativo nativo é um software desenvolvido especificamente para um determinado sistema operacional, ele é criado e pensado para usar as APIs e recursos de um único sistema operacional, isto é se você desenvolver um aplicativo com versão nativa Android e tivesse a intenção de ter uma versão para iPhone seria necessário desenvolver uma nova versão para IOS, esse tipo de software é disponibilizado nas lojas virtuais como a “Play Store” e “Apple store” para download como aplicação em seu dispositivo, ele também é acessado diretamente pela tela do dispositivo diferente do site que é necessário abrir um navegador e entrar pelo endereço.
+	O site (website, web) é um conjunto de páginas que é acessado pelo endereço online, diferente do aplicativo nativo ele é limitado pelo navegador  ( como Chrome, Firefox, Brave, Edge), ou seja, ele está limitado às regras de segurança do navegador, e diferente do aplicativo nativo o website não tem integração com o hardware o que o restringe de utilizar funções como a câmera e GPS, é acessível exclusivamente online.
+	Já o Progressive Web App (PWA) é um site com capacidades ampliadas, dessa forma ele pode ser adicionado na tela inicial da interface mobile além de enviar notificações como um aplicativo, entretanto assim como um site ele possui acesso restrito ao hardware, eles vem como uma tentativa de juntar o que há de bom na experiência de navegador com os benefícios da aplicação mobile, além de poder ser acessado offline ou online, o PWA vem para solucionar a necessidade de desenvolver um APP para cada sistema .
+
+
+CARACTERÍSTICAS DE CADA PARADIGMA
+
+Características principais do PWA:
+-Progressivo: Funciona para todos os usuários independente do navegador .
+-Responsivo: Compatível com qualquer formato (desktop, celular, tablet).
+-Independente de conectividade: Funciona OFFLINE.
+-Semelhante a aplicativos: Se assemelhar aplicativos nas interações e navegação
+-Reengajável, Linkável e Descobrível : Reengajável com notificações PUSH, Fácil de compartilhar com a URL e além de poder ser descoberto como aplicativo nos mecanismos de pesquisa .
+
+Características principais da WEB:
+-Multiplataforma: Pode ser acessada em qualquer navegador compatível.
+-Sem instalação: Não precisa ser instalada apenas acessada pelo URL.
+-Atualização centralizada: As atualizações são feitas nos servidores e não há necessidade do usuário atualizar para uma nova versão.
+-Restrição de acesso a o dispositivo: O navegador controla o acesso a certas operações.
+
+Características principais da Aplicação Nativa:
+-Desenvolvimento específico: Ele tem o desenvolvimento focado para um ambiente, pensado e focado em utilizar apenas uma API de um sistema.
+-Integração com o dispositivo: Consegue utilizar recursos do HARDWARE como câmera e bluetooth.
+-Alto desempenho: Consegue utilizar mais processamento.
+-Instalação no dispositivo: É preciso instalar para utilizar.
+-Desenvolvimento multiplataforma mais difícil: É necessário criar outras versões para outros dispositivos
+
+
+Quando utilizar cada uma das opções?
+	
+	O site é útil para novos usuários, pois ele é facilmente indexável para mecanismos de busca, diferente do APP nele não há necessidade de instalação de aplicativos. Ele é ideal quando o acesso é esporádico e quem procura algo para acesso imediato, por exemplo, sites institucionais, blogs ou portais.
+O PWA (Progressive Web APP) é vantajoso pois diferente do site ele pode ser salvo na tela inicial do celular, é útil para quem ainda acessa um site de forma mais frequente ou não deseja ficar repetidamente pesquisando ou acessando o endereço do site, ele também tem memória cache o que permite utilizar em redes instáveis ou offline. Pode ser utilizada como check-ins ou para pagamentos rápidos.
+	O Aplicativo já é diferente, ele tem integração com o hardware e permite que você ofereça fluidez e outros recursos não presentes no “PWA e SITE”, ele oferece desempenho maior além da possibilidade de uso complexo (Jogos ou bancos). É ideal quando se procura acesso diário, frequente ou usa recursos como o pagamento em NFC (aproximação) ou leitura de biometria.
+
+
+CONCLUSÃO
+
+	As diferentes metodologias de desenvolvimento de software oferecem distintas possibilidades para atender a cada necessidade individual do que se procura, além de terem focos diferentes, com base no que foi introduzido compreende-se que os sites oferecem um acesso mais simples e rápido, se mostrando ideal para alcançar usuários de forma rápida. O PWA se aproxima de aplicativos com suas notificações e acessibilidade pela interface e por sua vez se demonstra útil para quem acompanha um determinado conteúdo. Já a aplicação nativa procura o alto desempenho ou uso de funcionalidades específicas. Não há aplicações que sejam superior umas às outras pois é necessário considerar os objetivos, publico, frequência e utilização de cada situação.
+FONTES:
+
+MDN WEB DOC How the web works? 2026. Disponível em: https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works?utm_source=chatgpt.com
+
+MDN WEB DOC Progressive Web Apps 2026. Disponível em: 
+https://developer.mozilla.org/pt-BR/docs/Web/Progressive_web_apps?utm_source=chatgpt.com
+
+MDN WEB DOC What is a progressive web app? 2026. Disponível em: https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app?utm_source=chatgpt.com
+
+
+(TRINDADE; AFFINI, 2018) UFSCAR Apontamento acerca do progressive web apps. Disponível em: 
+https://grcmlesydpcd.objectstorage.sa-saopaulo-1.oci.customer-oci.com/p/OQwcvnO-c63O08Gc2Kv4OTbJttj5ik60dguiDIyyQ0wuo5SWn-jHOLW9wNbylNqI/n/grcmlesydpcd/b/dtysppobjmntbkp01/o/media/doity/submissoes/artigo-6d73074b34b7631db712c0472463b10b08ed8ea4-arquivo.pdf
+
+BAITA WEB PWA ou App Nativo? Escolha certo para sua startup! 2026. Disponivel em: https://baita.ac/insights/pwa-vs-app-nativo-para-startups-mm2lm9oz
+
+
+SARCOP WEB Aplicativo, PWA ou site responsivo: qual escolher? 2026. Disponível em: https://www.sacorp.tec.br/blog/aplicativo-ou-site-responsivo-qual-escolher
+
+EITRI WEB APP NATIVO vs PWA: Qual faz mais sentido? 2026. Disponivel em: https://www.eitri.tech/blog/app-nativo-vs-pwa/
+
+REPOSITÓRIO INSTITUCIONAL IFRS (MAZAROLLO; VINICIUS, 2021) IFRS Progressive web apps uma nova abordagem no desenvolvimento de aplicações web. Disponivel em: https://repositorio.ifrs.edu.br/handle/123456789/1275
